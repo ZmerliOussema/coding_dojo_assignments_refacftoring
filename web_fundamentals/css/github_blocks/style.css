@@ -1,0 +1,47 @@
+.container{
+    padding: 10px;
+    background-color: rgb(237, 237, 255);
+    margin: auto;
+    width: 50%;
+}
+img{
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+.line_1{
+    background-color: rgb(107, 215, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line_2 {
+    background-color: rgb(216, 157, 174);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line_3 {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+}
