@@ -42,6 +42,8 @@ button{
 
 .main{
     display: flex;
+    width: 1080px;
+    margin: auto;
 }
 
 .col-left{
@@ -52,41 +54,94 @@ button{
     flex:1;
 }
 
-.main{
-    width: 1000px;
-    margin: auto;
+.card{
+    border-style: groove;
+    border-top: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
-.profile-card-img{
+.card-profile-header{
+    background-color: rgb(23, 162, 184);
+    height: 100px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.card-profile-header img{
     width: 100px;
     border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.card-profile-info{
+    padding-left: 20px;
+}
+
+.icon{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.card-profile-info div{
+    display: flex;
+    align-items: center;
     margin-top: 10px;
-    margin-left: 10px;
     margin-bottom: 10px;
 }
 
 .card-header{
-    background-color: rgb(23, 162, 184);
-    height: 70px;
-    margin-bottom: 30px;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-.card-info{
-    margin-top: 20px;
-    margin-left: 10px;
+.card-info span{
+    color: gray;
 }
 
-.card-info img{
-    width: 20px;
-    margin: 10px 10px 10px 0px;
+.card-info p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
-.flex-container{
+.col-right .card .card-header{
     display: flex;
     align-items: center;
 }
 
-.col-left > div{
-    border-style: groove;
-    border-top: none;
+.col-right .card .card-header p{
+    background-color: rgb(204, 195, 195);
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
 }
+
+.col-right .card .card-info > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.images-names{
+    display: flex;
+    align-items: center;
+}
+
+.footer-card{
+    border-style: groove;
+    padding: 20px;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+
+
+
+
+
