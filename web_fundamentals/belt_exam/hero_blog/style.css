@@ -1,0 +1,52 @@
+/* Reset CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* Typography */
+.site-title {
+    font-size: 42px;
+    font-weight: bold;
+}
+/* Header Styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 50, 250);
+    padding: 20px;
+}
+
+nav a{
+    color: white;
+    border-right: solid 2px black;
+    padding: 5px;
+}
+
+nav a:last-of-type {
+    border-right: none
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Main article styles */
+main{
+    width: 75%;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 20px;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}
+
+/* Button Styles */
+.cta-secondary{
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 5px 5px black;
+}
