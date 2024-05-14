@@ -37,11 +37,59 @@ nav a:last-of-type {
 /* Main article styles */
 main{
     width: 75%;
-    background-color: aquamarine;
     margin: auto;
     padding: 20px;
     border-left: solid 2px black;
     border-right: solid 2px black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+.inputs{
+    display: flex;
+}
+
+.inputs input{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.input-email{
+    margin-bottom: 10px;
+    width: 61%;
+}
+
+.col{
+    flex: 1;
+}
+
+.row .col ul li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.row .col p{
+    margin: 10px 0px;
+}
+
+.row .col img{
+    width: 50%;
+    height: 200px;
+    margin-left: 50px;
+}
+
+/* Footer Style */
+footer{
+    background-color: rgb(39, 50, 250);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Button Styles */
@@ -49,4 +97,12 @@ main{
     background-color: white;
     padding: 5px 10px;
     box-shadow: 5px 5px black;
+}
+
+.btn-form{
+    background-color: rgb(4, 166, 4);
+    color: black;
+    box-shadow: 5px 5px black;
+    padding: 5px;
+    margin-left: 130px;
 }
