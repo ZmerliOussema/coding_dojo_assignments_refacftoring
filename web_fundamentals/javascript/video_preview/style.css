@@ -1,0 +1,59 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+/* Header Styles */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 1080px;
+}
+
+header button{
+    width: 100px;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+header input{
+    padding: 5px;
+}
+
+/* Main Styles */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    width: 1080px;
+}
+
+.col-left{
+    flex: 2;
+}
+
+.col-right{
+    flex: 1;
+}
+main .col-left video{
+    height: 400px;
+    width: 500px;
+}
+
+main .col-right video{
+    height: 113px;
+    width: 340px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

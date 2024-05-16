@@ -1,0 +1,84 @@
+/* CSS Reset */
+*{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* Header Styles */
+.nav-bar{
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 75%;
+}
+
+.nav-bar input{
+    padding: 10px;
+    width: 300px;
+}
+
+.nav-bar button{
+    background-color: rgb(65, 65, 255);
+    box-shadow: 2px 5px black;
+    padding: 10px;
+    color: white;
+    width: 70px;
+}
+
+/* Main Styles */
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 75%;
+    gap: 20px;
+}
+
+.col-left{
+    flex: 2;
+}
+
+.col-right{
+    flex: 1;
+}
+
+.card{
+    margin-bottom: 10px;
+    border: solid 2px ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.card p, .card h2{
+    margin: 10px 0px;
+
+}
+
+.card button{
+    background-color: yellow;
+    color: black;
+    box-shadow: 2px 5px black;
+    padding: 5px;
+}
+.col-right div{
+    border: solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.col-right div button{
+    background-color: green;
+    color: black;
+    padding: 5px 10px;
+    box-shadow: 2px 5px black;
+    margin-top: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+

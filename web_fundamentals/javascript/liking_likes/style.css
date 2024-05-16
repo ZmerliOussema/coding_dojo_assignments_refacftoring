@@ -1,0 +1,80 @@
+/* CSS Reset */
+*{
+    padding: 0px;
+    margin: 0px auto;
+    font-family: sans-serif;
+}
+
+/* Header Styles */
+header{
+    background-color: black;
+    color: white;
+    width: 700px;
+    margin: auto;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+/* Main Styles */
+main{
+    margin: auto;
+    width: 700px;
+}
+
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Card  Styles*/
+.card{
+    border: solid 2px black;
+    width: 300px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flex-container button{
+    background-color: yellow;
+    padding: 5px;
+    color: black;
+    box-shadow: 2px 5px black;
+}
+
+.avatar{
+    border: solid 2px black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.avatar p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.avatar img{
+    width: 100px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    gap: 220px;
+}
+
+.col-letf{
+    flex: 1;
+}
+
+.col-right{
+    flex: 2;
+}
