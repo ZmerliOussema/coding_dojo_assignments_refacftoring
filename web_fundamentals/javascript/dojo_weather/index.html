@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>DojoWeather</h1>
+        <nav>
+            <a href="#" onclick="pickCity(this)">Burbank</a>
+            <a href="#" onclick="pickCity(this)">Chicago</a>
+            <a href="#" onclick="pickCity(this)">Dallas</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Top -->
+        <div class="top">
+            <p>San Jose</p>
+            <div>
+                <p>
+                    show temperature in
+                    <select name="temperature" id="temperature" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </p>
+            </div>
+        </div>
+
+        <!-- Row -->
+        <div class="row">
+            <div class="card">
+                <p>Today</p>
+                <img src="./assets/some_rain.png" alt="some_rain.png" class="card-img">
+                <p>some rain</p>
+                <div>
+                    <p class="max" id="max1">24°</p>
+                    <p class="min" id="min1">18°</p>
+                </div>
+            </div>
+            <div class="card">
+                <p>Tomorrow</p>
+                <img src="./assets/some_sun.png" alt="some_sun.png" class="card-img">
+                <p>some sun</p>
+                <div>
+                    <p class="max" id="max2">27°</p>
+                    <p class="min" id="min2">19°</p>
+                </div>
+            </div>
+            <div class="card">
+                <p>Friday</p>
+                <img src="./assets/some_clouds.png" alt="some_clouds.png" class="card-img">
+                <p>some clouds</p>
+                <div>
+                    <p class="max" id="max3">21°</p>
+                    <p class="min" id="min3">16°</p>
+                </div>
+            </div>
+            <div class="card">
+                <p>Saturday</p>
+                <img src="./assets/some_sun.png" alt="some_sun.png" class="card-img">
+                <p>some sun</p>
+                <div>
+                    <p class="max" id="max4">26°</p>
+                    <p class="min" id="min4">21°</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie -->
+        <div class="cookie" id="cookie">
+            <img src="./assets/cookie.png" alt="cookie.png">
+            <p>
+                <span>Stop! Cookie time</span> <br>
+                We use cookies (sadly not the edible ones) to personalize <br>
+                content and ads, to provide social media features and to <br>
+                anlyse our traffic. <a href="#">Read more...</a>
+            </p>
+            <button class="btn-cookie" onclick="accept()">I Accept</button>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
