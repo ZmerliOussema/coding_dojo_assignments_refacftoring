@@ -1,0 +1,46 @@
+.app{
+  width: 1080px;
+  margin: auto;
+  background-color: #dddddd;
+  padding: 10px;
+}
+.header {
+  background-color: rgb(106, 168, 79);
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.flexBox {
+  display: flex;
+}
+
+.navigation{
+  background-color: rgb(111, 168, 220);
+  height: 400px;
+  width: 200px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.main{
+  background-color: rgb(224, 102, 102);
+  height: 600px;
+  width: 500px;
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.sub-content{
+  background-color: #ffd966;
+  height: 400px;
+  width: 250px;
+}
+
+.advertisement{
+  background-color: #b4a7d6;
+  height: 100px;
+  width: 100%;
+}
